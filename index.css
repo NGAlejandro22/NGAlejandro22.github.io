@@ -253,3 +253,33 @@ a {
     padding: auto;
     margin: auto;
 }
+
+
+/* Media Queries */
+
+@media all (max-width: 1024px) {
+   .maincontent,
+   .secondcontent {
+       width: 90%;
+   }
+}
+
+@media all () {
+    .maincontent,
+    .secondcontent {
+       width: 100%;
+       padding: 20px;
+       border: none;
+   }
+
+   .titleheader {
+       max-height: 380px;
+       padding: 50px 25px 0;
+       font-size: 1.3rem;
+       boder: none;
+   }
+
+   h1 {
+       font-size: 5rem;
+       line-height: 1.1;
+   }
