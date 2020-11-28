@@ -226,7 +226,7 @@ a {
 
 /* Media Queries */
 
-@media all (max-width: 1024px) {
+/* @media all (max-width: 1024px) {
    .maincontent,
    .secondcontent {
        width: 90%;
@@ -258,14 +258,14 @@ a {
 /*        line-height: 1.1; */
    }
     
-   p {
+/*    p {
         color: rgba(31, 30, 30, 0.87);
    }
      .main-content {
         float: none;
         width: 100%;
-    }
-}
+    } */
+} */
     
    
 
