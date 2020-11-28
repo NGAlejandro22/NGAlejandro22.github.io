@@ -261,6 +261,11 @@ a {
    p {
         color: rgba(31, 30, 30, 0.87);
    }
+     .main-content {
+        float: none;
+        width: 100%;
+    }
+}
     
    
 
