@@ -231,6 +231,11 @@ a {
    .secondcontent {
        width: 90%;
    }
+    .main-content {
+        padding: 10% 12%;
+        margin: 50px 0 20px;
+    }
+ }
 }
 
 @media all () {
@@ -256,6 +261,8 @@ a {
    p {
         color: rgba(31, 30, 30, 0.87);
    }
+    
+   
 
 
 
