@@ -328,3 +328,80 @@ a {
         text-align: center; 
     }
 }
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+    .titleheader {
+        padding-bottom: 150px;
+    }
+    .titleheader h1, h3 {
+        padding: 0 70px;
+    }
+    .maincontent {
+        width: 100%;
+        padding-top: 100px; 
+    }
+    .maincontent h1 {
+        width: 90%;
+        font-size: 2em;
+    }
+    .maincontent p {
+        font-size: 1em;
+        text-align: justify;
+        padding-top: 50px;
+    }
+    .column {
+        float: none;
+        width: 100%;
+        padding-right: 90px;
+        text-align: center;
+    }
+    .column img {
+        width: 101%;
+    }
+    .imagesdogs h2 {
+        width: 80%; 
+        font-size: 3em;
+        text-align: left;
+        padding-right: 90px;
+    }
+    .imagesdogs p {
+        font-size: 2.5em;
+        text-align: left;
+    }
+    .secondcontent {
+        width: 90%;
+        font-size: 1em;
+        text-align: justify;
+        padding-top: 50px;
+    }
+    .secondcontent h1 {
+        width: 90%;
+        font-size: 2em;
+        text-align: justify;
+    }
+    .secondcontent h2 {
+        width: 90%;
+        font-size: 2em;
+        padding: 30px 0;
+    }
+    .secondcontent p {
+        font-size: 1em;
+        text-align: justify;
+        padding-bottom: 70px;
+    }
+    .marika-friend {
+        width: 93%;
+        margin-left: 35px;
+    } 
+    footer h1 {
+        padding: 20px 20px;
+        font-size: 1.5em;   
+        text-align: center; 
+    }
+    .arrow {
+        height: auto;
+    }
+}
