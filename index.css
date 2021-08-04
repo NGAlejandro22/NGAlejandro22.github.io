@@ -1,0 +1,255 @@
+
+* {
+    box-sizing: border-box;
+}   
+
+body {
+        /* background-image: url("img/dogs.jpg");
+        background: linear-gradient(whitesmoke, transparent 90%),
+        white url("img/dogs.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; */
+        /* background-color: rgba(236, 232, 232, 0.904);    */
+        margin: auto;
+        color: rgba(31, 30, 30, 0.87);
+        /* font-family: 'Lato', sans-serif; */
+        /* font-weight: 300;  */
+        /* font-stretch: semi-condensed; */
+        /* font-style: 2.5em;     */
+}
+
+.logo {
+    text-align: left;
+}
+
+.navigationbar ul {
+    position: fixed;
+    /* background-color: #fff !important;
+    transition: background-color 200ms linear; */
+    top: 0;
+    width: 100%;
+    background-color: white;
+    color: rgb(63, 59, 52);
+    list-style-type: none;
+    float: inline-start;
+    height: 50px;
+    padding: 0px;
+    margin: 0;
+    text-align: justify;
+    display: inline-flex;
+    /* vertical-align: top; */
+    text-decoration-line: none;
+    border-bottom: 0.5px solid rgb(160, 158, 154);
+    z-index: 10;
+}
+
+.navigationbar a {
+    color:black;
+}
+
+.navigationbar a:hover {
+  background: rgb(206, 195, 195);
+  color: black;
+}
+
+
+li {
+    margin: auto;
+    font-size: large;
+}
+
+.titleheader {
+    background-image: url(img/grooming22.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color:white;
+    font-family: Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1.2em;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    padding: 160px 15px 70px;
+    opacity: 0.7;
+    /* border-bottom: 2px solid black; */
+}
+
+.maincontent {
+    /* color: rgba(31, 30, 30, 0.87); */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    padding: 40px;
+    margin: auto;
+    width: 60%;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+}
+
+h2,
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+}
+
+p a {
+    color:  rgba(31, 30, 30, 0.87);
+    font-size: 1.1em;
+}
+
+p a:hover {
+    background: rgb(224, 215, 215);
+    color: black;
+}   
+
+a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+}
+
+.customers {
+    font-size: 1.3em;
+    padding: 20px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 20px 10px 60px 90px;
+    text-align: justify;
+}
+
+.column4,
+.column5,
+.column6 {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.column a {
+    color: rgba(31, 30, 30, 0.87);
+}
+
+.column a:hover {
+  background: rgb(206, 195, 195);
+  color: black;
+}
+
+
+.media::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding: 40px;
+}
+
+/* .imagesdogs { */
+    /* width: 80%; */
+    /* background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.secondtext {
+    /* color: rgba(31, 30, 30, 0.87); */
+    text-align: center;
+    padding: 45px;
+    margin: auto;
+    width: 60%;
+}
+
+.secondcontent {
+    border-top: 2px solid black;
+    background-color: white;
+    text-align: center;
+    padding: 40px 0 120px;
+    margin: auto;
+    width: 60%;
+}
+
+.marika.dogs {
+    padding-top: 200px;
+}
+
+.marika-friend {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}   
+
+/* FOOTER */
+
+#footerid {
+    /* border-top: 2px solid black; */
+    /* color: white; */
+    background-color: rgb(80, 76, 71);
+    color: white;
+    font-size: x-small;
+    text-align: center;
+    margin: 0;
+    padding: 10px 20px 0;
+    width: auto;
+}
+
+.column3 {
+    color: white;
+    font-size: medium;
+    float: left;
+    width: 25%;
+    padding: 20px 30px 40px 40px;
+    text-align: center;
+}
+
+.column3 a:hover {
+    background: rgb(206, 195, 195);
+    color: black;
+
+  }
+
+.contactmedia::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding: 10px;
+}
+
+.logofooter {
+    /* border-top: 2px solid black; */
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.scroll-up {
+    text-align: right;
+    padding: 10px 15px;
+    margin: auto;
+    font-size: medium;
+}
+
+.arrow {
+    margin: auto;
+    padding-bottom: 15px;
+    text-align: right;
+}
+
+.cr {
+    font-size: medium;
+    padding: 10px 0 0px;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}
