@@ -216,19 +216,19 @@ a {
     padding: 10px;
 }
 
-/* .logofooter {
-    border-top: 2px solid black;
+.logofooter {
+    /* border-top: 2px solid black; */
     text-align: center;
     padding: 0;
     margin: 0;
-} */
+}
 
-/* .scroll-up {
+.scroll-up {
     text-align: right;
     padding: 10px 15px;
     margin: auto;
     font-size: medium;
-} */
+}
 
 .arrow {
     margin: auto;
